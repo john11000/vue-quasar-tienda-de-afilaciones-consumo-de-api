@@ -1,6 +1,6 @@
 <template>
   <div class=" row items-start ">
-    <q-card class="my-card q-ma-sm " >
+    <q-card class="my-card q-ma-sm " @click="linkear(prop.url)">
       <q-img :src="prop.img" :ratio="4 / 3" width="20" loading="lazy" />
 
       <q-card-section style="height:250px; overflow:hidden;">
